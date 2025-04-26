@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JKTstudio</title>
+  <!-- 引入 Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Georgia', serif;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .hero {
+      background-image: url('images/background.png'); /* 👉 請替換為你的背景圖片路徑 */
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 80px 20px;
+      color: white;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 8vw;
+      font-weight: bold;
+    }
+
+    .section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .section h2 {
+      font-size: 6vw;
+      max-width: 800px;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 4vw;
+      max-width: 600px;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 25px 20px;
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: underline;
+      font-weight: bold;
+      font-size: 4.5vw;
+    }
+
+    @media (min-width: 768px) {
+      .hero h1 {
+        font-size: 48px;
+      }
+
+      .section h2 {
+        font-size: 32px;
+      }
+
+      .section p {
+        font-size: 18px;
+      }
+
+      .footer a {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="hero">
+      <h1>JKTstudio</h1>
+    </div>
+
+    <div class="section">
+      <h2>Welcome</h2>
+      <p>JKTstudio, a team dedicated to innovation and quality in APP development.</p>
+    </div>
+  </main>
+
+  <div class="footer">
+    <a href="mailto:jktstudio@zoho.com">jktstudio@zoho.com</a>
+  </div>
+
+</body>
+</html>
