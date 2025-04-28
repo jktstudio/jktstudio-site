@@ -73,6 +73,10 @@
         font-size: 48px;
       }
 
+      .section h2 {
+        font-size: 32px;
+      }
+
       .section p {
         font-size: 18px;
         white-space: normal;
@@ -96,21 +100,16 @@
     }
 
     @media (min-width: 768px) {
-      .hero h1 {
-        font-size: 48px;
-      }
-
-      .section h2 {
-        font-size: 32px;
-      }
-
-      .section p {
-        font-size: 18px;
-      }
-
       .footer a {
         font-size: 20px;
       }
+    }
+
+    /* 👉 加上的空白Bar樣式 */
+    .bottom-bar {
+      height: 70px;
+      background-color: #fff; /* 空白Bar設成白色背景 */
+      width: 100%;
     }
   </style>
 </head>
@@ -130,6 +129,9 @@
   <div class="footer">
     <a href="mailto:jktstudio@zoho.com">jktstudio@zoho.com</a>
   </div>
+
+  <!-- 新增的 20px 空白Bar -->
+  <div class="bottom-bar"></div>
 
 </body>
 </html>
