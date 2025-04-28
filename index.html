@@ -65,7 +65,20 @@
 
     .section p {
       font-size: 4vw;
-      max-width: 600px;
+      max-width: 800px;
+    }
+
+    @media (min-width: 768px) {
+      .hero h1 {
+        font-size: 48px;
+      }
+
+      .section p {
+        font-size: 18px;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: unset;
+      }
     }
 
     .footer {
